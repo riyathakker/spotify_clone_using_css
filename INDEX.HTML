@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./photos/logo.png">
+    <title>Spotify - Web Player: Music for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!--icons-->
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+    </head>
+<body>
+<div class="main">
+    <div class="sidebar">
+        <div class="options">
+            <div class="button">
+                <i class="fas fa-home"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="button">
+                <i class="fas fa-search"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+     
+        <div class="library">
+            <div class="option">
+                <div class="lib-options">
+                    <img src="./photos/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icon-options">
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="lib-box">
+                <div class="box">
+                    <div class="box-p1">Create your first playlist</div>
+                    <div class="box-p2">It's easy, we'll help you</div>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box2">
+                    <div class="box2-p1">Let's find some podcasts to follow</div>
+                    <div class="box2-p2">We'll keep you updated on new episodes</div>
+                    <button class="badge2">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maincontent">
+        <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+             <img src="./photos/backward_icon.png">&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="./photos/forward_icon.png" class="hide">
+            </div>
+            <div class="sticky-nav-options">
+             <button class="badge3 hide">Explore Premium</button>
+             <button class="badge4"><i class="fa fa-download">&nbsp;&nbsp;</i>Install app</button>
+             <div class="profile"><i class="fa-solid fa-user"></i></div>
+            </div> 
+        </div>
+        <div class="cards">
+            <h2>Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./photos/card1img.jpeg">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of most played tracks right now</p>
+                </div>
+            </div>
+        </div>
+        <div class="cards2">
+            <h2>Trending now near you</h2>
+            <div class="cards-container2">
+                <div class="card">
+                    <img src="./photos/card2img.jpeg">
+                    <p class="card-title">Mahiye Jinna Sona</p>
+                    <p class="card-info">By spotify studios</p>
+                </div>
+                <div class="card">
+                    <img src="./photos/card3img.jpeg">
+                    <p class="card-title">Mere paas tum ho</p>
+                    <p class="card-info">By spotify studios</p>
+                </div>
+                <div class="card">
+                    <img src="./photos/card4img.jpeg">
+                    <p class="card-title">Alter</p>
+                    <p class="card-info">By spotify studios</p>
+                </div>
+            </div>
+        </div>
+        <div class="cards2">
+            <h2>Top songs</h2>
+            <div class="cards-container2">
+                <div class="card">
+                    <img src="./photos/card5img.jpeg">
+                    <p class="card-title">Top songs Global</p>
+                    <p class="card-info">By spotify studios</p>
+                </div>
+                <div class="card">
+                    <img src="./photos/card6img.jpeg">
+                    <p class="card-title">Top songs India</p>
+                    <p class="card-info">By spotify studios</p>
+                </div>
+                <div class="card">
+                    <img src="./photos/card1img.jpeg">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">By spotify studios</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="musicplayer">
+         <div class="first-part">
+            <div class="album">
+                <img src="./photos/card3img.jpeg">
+            </div>
+            <div class="name" >
+                <p class="name2">Mere Pass tum ho </p>
+                <p class="singer">Shreya Ghosal, Arijit Singh</p>
+                
+            </div>
+
+            <div class="controls">
+                <img src="./photos/album_icon1.png" class="control-icon">
+                <img src="./photos/album_icon2.png" class="control-icon">
+            </div>
+         </div>
+         <div class="second-part">
+            <div class="player-controls">
+                <img src="./photos/player_icon1.png" class="player-control-icon">
+                <img src="./photos/player_icon2.png" class="player-control-icon">
+                <img src="./photos/player_icon3.png" class="player-control-icon" style="opacity:1;height:2rem;width:2rem;">
+                <img src="./photos/player_icon4.png" class="player-control-icon">
+                <img src="./photos/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="Progress-bar" step="1">
+                <span class="total-time">3:33</span>
+            </div>
+         </div>
+         <div class="last-part">
+            <div class="last-part-new">
+                <img src="./photos/controls_icon1.png" class="icon">
+                <img src="./photos/controld_icon2.png" class="icon">
+                <img src="./photos/controls_icon3.png" class="icon">
+                <img src="./photos/controls_icon4.png" class="icon">
+                
+                <img src="./photos/controls_icon5.png" class="icon">
+        
+            
+                <input type="range" min="0" max="100" class="bar2" step="1" >
+            </div>
+         </div>
+    </div>
+</div>
+ 
+</body>
+</html>
